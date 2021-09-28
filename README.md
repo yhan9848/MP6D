@@ -28,9 +28,9 @@ Basic Usage
 6. plymodels. 5 CAD models of Ply format.
 
 ## The description of the Archive  in the directories:
-The data of each frame is composed of RGB image, Depth image, Mask image and xxx.mat. The content data of xxx.mat is as follows：
-1.center: 2D location of the projection of the 3D model origin in the image.    
-2.cls_indexes: class labels of the objects.  
+The data of each frame is composed of RGB image, Depth image, Mask image, xxbox.txt and xxx.mat. The content data of xxx.mat is as follows：  
+1.center: 2D location of the projection of the 3D model origin in the image.      
+2.cls_indexes: class labels of the objects.   
 3.factor_depth: divde the depth image by this factor to get the actual depth vaule.  
 4.intrinsic_matrix: camera intrinsics.  
 5.poses: 6D poses of objects in the image.  
