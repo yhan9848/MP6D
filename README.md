@@ -5,7 +5,10 @@ Information
 This is the MP6D dataset [1] for 6D object pose estimation.
 It contains 20 videos (6,000 frames in total) of 5 metal parts in real scenes and 20,000 synthetic images, each of which is partially affected by occlusion, illumination changes,
 and other factors.
-<div align=center><img width="100%" src="figs/FFB6D_overview.png"/></div>
+## Instance models and CAD models of 5 objects.
+(a) Five metal parts with oxidized aluminum alloy surface. (b) CAD models of the metal parts.
+<div align=center><img width="50%" src="src/fig1.png"/></div>
+## Real and rendered scenes
 
 
 Basic Usage
