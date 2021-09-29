@@ -41,7 +41,7 @@ The data of each frame is composed of RGB image, Depth image, Mask image, xxbox.
 Download
 ===========
 
-The data can be downloaded as a set of zip archives [here](https://koawere-my.sharepoint.com/:f:/g/personal/yhan_f_svip_gq/EvO12LCt82tInkOJV4ipyccBDun0bk_bDxM_rx5rMz982g?e=7lmUvA).
+The data can be downloaded as a set of zip archives [here](https://koawere-my.sharepoint.com/:f:/g/personal/yhan_f_svip_gq/EvO12LCt82tInkOJV4ipyccBDun0bk_bDxM_rx5rMz982g?e=jrEYyL).
 
 
 
