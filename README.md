@@ -2,8 +2,8 @@
 Information
 ===========
 
-This is the MP6D dataset [1] for 6D object pose estimation.
-It contains 20 videos (6,000 frames in total) of 5 metal parts in real scenes and 20,000 synthetic images, each of which is partially affected by occlusion, illumination changes,
+This is the MP6D dataset for 6D object pose estimation.
+It contains 20 videos (6,011 frames in total) of 5 metal parts in real scenes and 20,000 synthetic images, each of which is partially affected by occlusion, illumination changes,
 and other factors.
 ## Instance models and CAD models of 5 objects.
 
