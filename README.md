@@ -12,7 +12,7 @@ and other factors.
 
 ## Real and rendered scenes
 
-(a), (b), (c) and (d) represent the examples of
+The dataset contains 3 real scenes and 20 synthesis scenes. (a), (b), (c) and (d) represent the examples of
 the real scenes. (e), (f), (g) and (h) represent the examples of the synthesis scenes.
 <div align=center><img width="70%" src="src/fig2.png"/></div>
 
@@ -28,7 +28,9 @@ Basic Usage
 6. models_cad. 5 CAD models of Ply format.
 
 ## The description of the Archive  in the directories:
-The data of each frame is composed of RGB image, Depth image, Mask image, xxbox.txt and xxx.mat. The content data of xxx.mat is as follows：  
+
+The data of each frame is composed of RGB image, Depth image, Mask image, xxbox.txt and xxx.mat. where xxbox.txt represents the bounding box of the target in the figure. The content data of xxx.mat is as follows：  
+
 1.center: 2D location of the projection of the 3D model origin in the image.      
 2.cls_indexes: class labels of the objects.   
 3.factor_depth: divde the depth image by this factor to get the actual depth vaule.  
@@ -38,6 +40,7 @@ The data of each frame is composed of RGB image, Depth image, Mask image, xxbox.
 
 Download
 ===========
+
 The data can be downloaded as a set of zip archives [here](https://koawere-my.sharepoint.com/:u:/g/personal/yhan_f_svip_gq/EaJdVKHnU3ZIl0HbuqS62BEBQFzj4S2L_Udc87_nHnVwwg?e=K8J6gV).
 
 
