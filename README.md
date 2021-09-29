@@ -25,7 +25,7 @@ Basic Usage
 2. data. The 20 videos in the dataset.
 3. data_syn. 20,000 synthetic images of the 5 objects.
 4. image_sets. Separation of the videos into training set (train.txt) and the testing set (test.txt).
-6. plymodels. 5 CAD models of Ply format.
+6. models_cad. 5 CAD models of Ply format.
 
 ## The description of the Archive  in the directories:
 The data of each frame is composed of RGB image, Depth image, Mask image, xxbox.txt and xxx.mat. The content data of xxx.mat is as follows：  
