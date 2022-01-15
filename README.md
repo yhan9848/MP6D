@@ -6,7 +6,7 @@ It contains 77 videos (20100 frames in total) of 20 metal parts in real scenes a
 <div align=center><img width="60%" src="src/fig0.png"/></div>
 
 ## About MP6D video
-[![Watch the video](<div align=center><img width="60%" src="src/video0.png"/></div>](https://youtu.be/_7i8U0sWFiI)
+[Watch the video <div align=center><img width="60%" src="src/video0.png"/></div>](https://youtu.be/_7i8U0sWFiI)
 
 ## Instance models
 
