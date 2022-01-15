@@ -4,7 +4,9 @@ Information
 This is the MP6D dataset for 6D object pose estimation.
 It contains 77 videos (20100 frames in total) of 20 metal parts in real scenes and 50000 synthetic images, each of which is partially affected by occlusion, illumination changes,and other factors. Due to the interference of the above factors, point cloud or depth information is often distorted or missing. The green shadow is shown in the following figure.
 <div align=center><img width="60%" src="src/fig0.png"/></div>
-[![Watch the video](<div align=center><img width="60%" src="src/fig0.png"/></div>](https://youtu.be/_7i8U0sWFiI)
+
+## About MP6D video
+[![Watch the video](<div align=center><img width="60%" src="src/video0.png"/></div>](https://youtu.be/_7i8U0sWFiI)
 
 ## Instance models
 
