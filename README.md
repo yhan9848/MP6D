@@ -1,10 +1,10 @@
 # MP6D: An RGB-D Dataset for Metal Parts’ 6D Pose Estimation
 Information
 ===========
-
 This is the MP6D dataset for 6D object pose estimation.
-It contains 77 videos (20100 frames in total) of 20 metal parts in real scenes and 50000 synthetic images, each of which is partially affected by occlusion, illumination changes,
-and other factors.
+It contains 77 videos (20100 frames in total) of 20 metal parts in real scenes and 50000 synthetic images, each of which is partially affected by occlusion, illumination changes,and other factors. Due to the interference of the above factors, point cloud or depth information is often distorted or missing. The green shadow is shown in the following figure.
+<div align=center><img width="60%" src="src/fig0.png"/></div>
+
 ## Instance models
 
 20 metal parts (15 parts fromaluminum oxide material and 5 parts from copper oxidesurface material) derived from the industrial environment. Metal parts are available in a range  of sizes from 17 to 125 mm. All of the objects are textureless, symmetric, of complex shape and with uniform color. 
