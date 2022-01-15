@@ -3,18 +3,17 @@ Information
 ===========
 
 This is the MP6D dataset for 6D object pose estimation.
-It contains 20 videos (6,011 frames in total) of 5 metal parts in real scenes and 20,000 synthetic images, each of which is partially affected by occlusion, illumination changes,
+It contains 77 videos (20100 frames in total) of 20 metal parts in real scenes and 50000 synthetic images, each of which is partially affected by occlusion, illumination changes,
 and other factors.
-## Instance models and CAD models of 5 objects.
+## Instance models
 
-(a) Five metal parts with oxidized aluminum alloy surface. (b) CAD models of the metal parts.
-<div align=center><img width="50%" src="src/fig1.png"/></div>
+20 metal parts (15 parts fromaluminum oxide material and 5 parts from copper oxidesurface material) derived from the industrial environment. Metal parts are available in a range  of sizes from 17 to 125 mm. All of the objects are textureless, symmetric, of complex shape and with uniform color. 
+<div align=center><img width="70%" src="src/fig1.png"/></div>
 
 ## Real and rendered scenes
 
-The dataset contains 3 real scenes and 20 synthesis scenes. (a), (b), (c) and (d) represent the examples of
-the real scenes. (e), (f), (g) and (h) represent the examples of the synthesis scenes.
-<div align=center><img width="70%" src="src/fig2.png"/></div>
+The dataset contains 11 real scenes and 50 synthesis scenes. Numbers 1-11 represent real-world acquisition scenes. Numbers 12-15 are some examples of synthetic images.
+<div align=center><img width="80%" src="src/fig2.png"/></div>
 
 Basic Usage
 ===========
@@ -22,10 +21,11 @@ Basic Usage
 ## The description of the directories in this package:
 
 1. cameras. The camera parameters used to capture the videos. 
-2. data. The 20 videos in the dataset.
-3. data_syn. 20,000 synthetic images of the 5 objects.
-4. image_sets. Separation of the videos into training set (train.txt) and the testing set (test.txt).
-6. models_cad. 5 CAD models of Ply format.
+2. data. The 77 videos in the dataset.
+3. data_syn1. 25,000 synthetic images of the 20 objects.
+4. data_syn2. 25,000 synthetic images of the 20 objects.
+5. image_sets. Separation of the videos into training set (train.txt) and the testing set (test.txt).
+6. models_cad. 20 CAD models of Ply format.
 
 ## The description of the Archive  in the directories:
 
