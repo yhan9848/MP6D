@@ -27,8 +27,7 @@ Basic Usage
 2. data. The 77 videos in the dataset.
 3. data_syn1. 25,000 synthetic images of the 20 objects.
 4. data_syn2. 25,000 synthetic images of the 20 objects.
-5. image_sets. Separation of the videos into training set (train.txt) and the testing set (test.txt).
-6. models_cad. 20 CAD models of Ply format.
+5. models_cad. 20 CAD models of Ply format.
 
 ## The description of the Archive  in the directories:
 
